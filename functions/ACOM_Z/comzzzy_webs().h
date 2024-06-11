@@ -77,7 +77,7 @@ string comzzzy_webs() {
 	while (1) {
 		Sleep(10);
 		system("cls");
-		cout << Phycom_head << "The Webs stared\n" << endl;
+		cout << Phycom_head << "The Webs starred\n" << endl;
 		for (int i = 0; i < int(webs_strs.size()); i++) {
 			cout << i + 1 << '.' << webs_strs[i].first << endl;
 			cout << "    " << webs_strs[i].second << endl;
@@ -93,7 +93,7 @@ string comzzzy_webs() {
 
 		if (!str_is_number(mad)) {
 			system("cls");
-			cout << Phycom_head << "The Webs stared\n" << endl;
+			cout << Phycom_head << "The Webs starred\n" << endl;
 			for (int i = 0; i < int(webs_strs.size()); i++) {
 				cout << i + 1 << '.' << webs_strs[i].first << endl;
 				cout << "    " << webs_strs[i].second << endl;
